@@ -1,0 +1,65 @@
+.bg-image{
+    background-image: url('../images/main_bg.png');
+    background-size:cover;
+}
+@media screen and (max-width:451px)
+{
+    .bg-image{
+        background-image: url('../images/main_bg.png');
+     
+    }
+    
+}
+input[type="text"],
+textarea
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.627);
+    color: black;
+}
+input[type="Password"],
+textarea
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.627);
+    color: black;
+}
+.input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.627);;
+    color: black;
+    border-radius: 0px;
+}
+.input:focus option:first-of-type {
+    display: none;
+}
+input[type="email"],
+textarea
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.627);;
+    color: black;
+}
+.butto{
+    color: white;
+    background:gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px grey, -1px -1px 1px grey;
+    outline: none;
+}
+.log{
+    background-color: rgba(172, 242, 204, 0.827);
+    border-radius: 10px;
+}

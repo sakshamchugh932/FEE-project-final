@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="count.css" />
+    <title>Countdown Timer</title>
+  </head>
+  <body>
+
+    <div class="container my-5">
+      <h1 class="text-center mb-4">COUNTDOWN TIMER</h1>
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="date" class="form-label">Enter Date</label>
+            <input type="date" id="date" class="form-control" />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="time" class="form-label">Enter Time</label>
+            <input type="time" id="time" class="form-control" />
+          </div>
+        </div>
+      </div>
+      <div class="text-center mb-4">
+        <button id="calculate" class="btn btn-primary me-2">Calculate</button>
+        <button id="pause" class="btn btn-secondary me-2">Pause</button>
+        <button id="resume" class="btn btn-info me-2">Resume</button>
+        <button id="reset" class="btn btn-danger">Reset</button>
+      </div>
+      <div class="countdown d-flex justify-content-center">
+        <div class="me-4">
+          <p class="heading">DAY</p>
+          <div class="time" id="countdown-days">0</div>
+        </div>
+        <div class="me-4">
+          <p class="heading">HOURS</p>
+          <div class="time" id="countdown-hours">0</div>
+        </div>
+        <div class="me-4">
+          <p class="heading">MINUTES</p>
+          <div class="time" id="countdown-minutes">0</div>
+        </div>
+        <div>
+          <p class="heading">SECONDS</p>
+          <div class="time" id="countdown-seconds">0</div>
+        </div>
+      </div>
+    </div>
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="count.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

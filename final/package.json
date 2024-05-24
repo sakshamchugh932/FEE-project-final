@@ -1,0 +1,20 @@
+{
+  "name": "final",
+  "version": "10.7.0",
+  "description": "no",
+  "main": "index.js",
+  "scripts": {
+    "test": "ss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {}
+}
